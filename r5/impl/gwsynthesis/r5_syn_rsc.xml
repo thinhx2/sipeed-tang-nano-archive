@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="softmcu_top" Register="112" Lut="310">
+    <SubModule name="cpu_core" Register="60" Alu="61" Lut="16" Bsram="2"/>
+    <SubModule name="your_ram_block" Bsram="1"/>
+</Module>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1" package="QFN48" speed="6" partNumber="GW1N-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="C:\Users\thinhx2\Documents\r5\src\femtorv_quak.v" type="verilog"/>
+        <File path="C:\Users\thinhx2\Documents\r5\src\gowin_sp.v" type="verilog"/>
+        <File path="C:\Users\thinhx2\Documents\r5\src\softmcu_top.v" type="verilog"/>
+        <File path="C:\Users\thinhx2\Documents\r5\src\uart_tx_mini.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\thinhx2\Documents\r5\impl\gwsynthesis\r5.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="softmcu_top"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

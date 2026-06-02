@@ -1,0 +1,28 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/thinhx2/Documents/r5/src/femtorv_quak.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/thinhx2/Documents/r5/src/gowin_sp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/thinhx2/Documents/r5/src/softmcu_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/thinhx2/Documents/r5/src/uart_tx_mini.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/thinhx2/Documents/r5/impl/temp/rtl_parser.result",
+ "Top" : "softmcu_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,10 @@
+-d C:\Users\thinhx2\Documents\r5\impl\gwsynthesis\r5.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst C:\Users\thinhx2\Documents\r5\src\softmcu.cst
+-cfg C:\Users\thinhx2\Documents\r5\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

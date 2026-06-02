@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/thinhx2/Documents/r5/src/softmcu_top.v",
+  "InstLine" : 1,
+  "InstName" : "softmcu_top",
+  "ModuleFile" : "C:/Users/thinhx2/Documents/r5/src/softmcu_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "softmcu_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/thinhx2/Documents/r5/src/softmcu_top.v",
+    "InstLine" : 55,
+    "InstName" : "cpu_core",
+    "ModuleFile" : "C:/Users/thinhx2/Documents/r5/src/femtorv_quak.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "femtorv_quark"
+   },
+   {
+    "InstFile" : "C:/Users/thinhx2/Documents/r5/src/softmcu_top.v",
+    "InstLine" : 169,
+    "InstName" : "your_ram_block",
+    "ModuleFile" : "C:/Users/thinhx2/Documents/r5/src/gowin_sp.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_SP"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/thinhx2/Documents/r5/src/uart_tx_mini.v",
+  "InstLine" : 1,
+  "InstName" : "uart_tx_mini",
+  "ModuleFile" : "C:/Users/thinhx2/Documents/r5/src/uart_tx_mini.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "uart_tx_mini"
+ }
+]

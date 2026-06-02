@@ -1,0 +1,33 @@
+// Xung nhịp hệ thống
+IO_LOC "sys_clk" 35;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33;
+
+// Định vị 3 LED RGB Onboard
+IO_LOC "O_led[0]" 16;
+IO_PORT "O_led[0]" IO_TYPE=LVCMOS33 DRIVE=8;
+
+IO_LOC "O_led[1]" 17;
+IO_PORT "O_led[1]" IO_TYPE=LVCMOS33 DRIVE=8;
+
+IO_LOC "O_led[2]" 18;
+IO_PORT "O_led[2]" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// Chân phát UART TX đẩy ra chân ngoài tự do số 27
+IO_LOC "O_uart_tx" 27;
+IO_PORT "O_uart_tx" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// ====== CHÂN GIAO TIẾP VỚI CHIP PSRAM TRÊN BOARD TANG NANO ======
+IO_LOC "O_psram_ck"  22;  // Xung nhịp PSRAM
+IO_LOC "O_psram_ce"  19;  // Chọn chip PSRAM
+IO_LOC "IO_psram_d0" 21;  // Chân dữ liệu SI/MOSI
+IO_LOC "IO_psram_d1" 20;  // Chân dữ liệu SO/MISO
+IO_LOC "IO_psram_d2" 14;  // SIO2 / WP_n
+IO_LOC "IO_psram_d3" 15;  // SIO3 / HOLD_n
+
+// Cấu hình chuẩn hóa: Chỉ giữ lại kiểu điện áp LVCMOS33, để hệ thống tự tối ưu dòng lái
+IO_PORT "O_psram_ck"  IO_TYPE=LVCMOS33;
+IO_PORT "O_psram_ce"  IO_TYPE=LVCMOS33;
+IO_PORT "IO_psram_d0" IO_TYPE=LVCMOS33;
+IO_PORT "IO_psram_d1" IO_TYPE=LVCMOS33;
+IO_PORT "IO_psram_d2" IO_TYPE=LVCMOS33;
+IO_PORT "IO_psram_d3" IO_TYPE=LVCMOS33;
